@@ -1,4 +1,7 @@
 import math
+def validate_numeric_input(x):
+    if not isinstance(x, (int, float)):
+        raise TypeError("Input must be a number")
 
 def sin(x):
     validate_numeric_input(x)
@@ -44,6 +47,3 @@ def atan(x):
     validate_numeric_input(x)
     return math.degrees(math.atan(x))
 
-def validate_numeric_input(x):
-    if not isinstance(x, (int, float)):
-        raise ValueError("Input must be a number")
