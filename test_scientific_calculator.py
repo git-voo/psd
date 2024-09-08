@@ -12,7 +12,7 @@ class TestBasicOperations(unittest.TestCase):
       
  
 
-class TestScientificCalculator(unittest.TestCase):  
+class TestScientificOperations(unittest.TestCase):  
     # TESTS FOR SINE OPERATIONS
     def test_sin_positive_input(self):
         result = sin(90)
